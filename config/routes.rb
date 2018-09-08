@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'user#index'
   get 'comments/index'
   get 'comments/show'
   get 'comments/new'
@@ -13,7 +14,7 @@ Rails.application.routes.draw do
   get 'bio/destroy'
   get 'bio/create'
   get 'bio/update'
-  get 'posts/index'
+  get 'posts/index' 
   get 'posts/show'
   get 'posts/new'
   get 'posts/edit'
